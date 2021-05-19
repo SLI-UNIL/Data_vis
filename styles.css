@@ -1,4 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;400;500;700&display=swap');
+
 .title {
-    width: 100vw;
     text-align: center;
+    font-family: Roboto Mono;
+    font-weight: 700;
+    user-select: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sub-title {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Roboto Mono;
+    font-weight: 400;
+    color: goldenrod;
+    padding-left: 20px;
+    padding-right: 20px;
+    user-select: none;
+}
+
+.body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30vh;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+.Main {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Widget {
+    width: 18vw;
+    min-width: 200px;
+    height: 100px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Widget-title {
+    font-family: Roboto Mono;
+    font-weight: 500;
+    font-size: 32px;
+    user-select: none;
+}
+
+.Widget-checkbox {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 3px solid black;
+    transition: .2s;
+    margin-top: 20px;
+}
+
+.Widget-checkbox:hover {
+    cursor: pointer;
+    background-color: gold;
+}
+
+.submit {
+    margin-top: 30px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-family: Roboto Mono;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+
+    background-color: black;
+    border-radius: 30px;
+
+    transition: .12s;
+}
+
+.submit:hover {
+    background-color: gold;
+    color: black;
+    cursor: pointer;
 }
