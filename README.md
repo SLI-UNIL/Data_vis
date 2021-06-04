@@ -31,7 +31,7 @@ We chose to give the viewer the option to see either one award timeline at a tim
 
 As it was important for us to give visibility to the women directors individually, when clicking on the dots in the matrix, it is possible to see the names of the nominees and the winners when applicable. 
 
-To achieve the desired results we used HTML for the front end and JavaScript for the backend. We decided to work on two separate files as the final result comes in a home page and the visualisation page. 
+To achieve the desired results we used HTML for the frontend and JavaScript for the backend. We decided to work on two separate files as the final result comes in a home page and the visualisation page. 
 
 ## The results 
 
