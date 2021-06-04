@@ -23,7 +23,7 @@ https://www.academie-cinema.org/palmares/
 https://en.wikipedia.org/wiki/César_Award_for_Best_Director
 
 
-## The visualiuation 
+## The visualisation 
 
 We decided to go with a matrix representation as we felt it would have the strongest visual impact. The same argument made us chose size variation to represent the number of nominees and colour variation to represent years with winners. 
 
