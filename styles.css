@@ -4,8 +4,7 @@
     font-family: Roboto Mono;
     font-weight: 700;
     user-select: none;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 70vw;
 }
 
 .sub-title {
@@ -13,23 +12,25 @@
     margin-top: 10px;
     font-family: Roboto Mono;
     font-weight: 400;
-    color: goldenrod;
-    padding-left: 20px;
-    padding-right: 20px;
+    color: rgb(233, 190, 0);
+    width: 70vw;
     user-select: none;
 }
 
 .body, .body-main {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    margin-top: 30vh;
+    width: 100vw;
+    height: 90vh;
     flex-direction: column;
     overflow: hidden;
 }
 
 .body-main {
-    margin-top: 0;
+    justify-content: flex-start;
+    padding-top: 10vh;
+    height: auto;
 }
 
 .Main {
@@ -44,14 +45,11 @@
     width: 18vw;
     min-width: 200px;
     height: 100px;
-    margin-bottom: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .Widget-title {
@@ -65,7 +63,7 @@
     width: 15px;
     height: 15px;
     border-radius: 100%;
-    border: 3px solid black;
+    border: 2px solid black;
     transition: .2s;
     margin-top: 20px;
 }
@@ -88,6 +86,7 @@
     background-color: black;
     border-radius: 30px;
     transition: .12s;
+    margin-bottom: 20px;
 }
 
 .submit:hover {
@@ -98,6 +97,57 @@
 
 /* Main page CSS */
 
+.legend {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+
+.legend-part {
+    height: 50px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.legend-dot, .legend-dot2, .legend-dot3, .legend-dot4, .legend-dotGold {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.legend-dotGold {
+    background-color: gold;
+}
+
+.legend-dot2 {
+    width: 22px;
+    height: 22px;
+}
+
+.legend-dot3 {
+    width: 29px;
+    height: 29px;
+}
+
+.legend-dot4 {
+    width: 36px;
+    height: 36px;
+}
+
+.legend-text {
+    font-family: Roboto Mono;
+    font-weight: 200;
+    font-size: 16px;
+    margin-left: 10px;
+    user-select: none;
+}
+
 .diagram-main {
     display: flex;
     justify-content: center;
@@ -105,6 +155,7 @@
     flex-direction: column;
     width: 80vw;
     padding: 50px;
+    padding-top: 10px;
 }
 
 .diagram-line {
@@ -148,6 +199,11 @@
     height: 20px;
     background-color: black;
     border-radius: 100%;
+    transition: .2s;
+}
+
+.diagram-lineRightDot:hover, .diagram-lineRightDotWinner:hover {
+    cursor: pointer;
 }
 
 .diagram-lineRightDotWinner {
@@ -166,4 +222,46 @@
     font-weight: 200;
     font-size: 16px;
     transform: rotate(-60deg);
+}
+
+.data-display {
+    width: 50vw;
+    padding: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.data-displayTitle {
+    font-family: Roboto Mono;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.data-displayTextLine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.data-displayText, .data-displayTextWinner {
+    font-family: Roboto Mono;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.data-displayTextWinner {
+    font-weight: 400;
+}
+
+.data-displayWin {
+    font-family: Roboto Mono;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(255, 208, 0);
+    margin-right: 10px;
 }
