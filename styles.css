@@ -86,7 +86,7 @@
     background-color: black;
     border-radius: 30px;
     transition: .12s;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .submit:hover {
@@ -226,10 +226,12 @@
 
 .data-display {
     width: 50vw;
+    height: 200px;
     padding: 20px;
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
     flex-direction: column;
 }
 
