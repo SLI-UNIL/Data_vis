@@ -8,21 +8,91 @@
     <title>Women in awards</title>
 
     <link rel="stylesheet" href="./styles.css">
-
 </head>
 
 <body>
-    <script src="scripts.js"></script>
 
-    <div class="body">
+
+    <div class="body-main">
         <span class="submit" id="back">Go back</span>
-        <script>
-            document.getElementById("back").onclick = function () {
-                document.location.pathname = "index.html"
-            }
-        </script>
+        <h1 class="title">Women nominees and winners in the past 20 years</h1>
+        <! Diagram>
+            <div class="diagram-main">
+
+                <! Diagram Oscars markings>
+                    <div class="diagram-line" id="oscars-line">
+                        <div class="diagram-lineLeft">
+                            <span class="diagram-awardName">Oscars</span>
+                        </div>
+                        <div class="diagram-lineRight" id="lineO">
+
+                        </div>
+                    </div>
+
+                    <! Diagram Cesars markings>
+                        <div class="diagram-line" id="cesars-line">
+                            <div class="diagram-lineLeft">
+                                <span class="diagram-awardName">Césars</span>
+                            </div>
+                            <div class="diagram-lineRight" id="lineC">
+                            </div>
+                        </div>
+
+                        <! Diagram Baftas markings>
+                            <div class="diagram-line" id="baftas-line">
+                                <div class="diagram-lineLeft">
+                                    <span class="diagram-awardName">Baftas</span>
+                                </div>
+                                <div class="diagram-lineRight" id="lineB">
+
+                                </div>
+                            </div>
+
+                            <! Diagram y index markings>
+                                <div class="diagram-line">
+                                    <div class="diagram-lineLeft"></div>
+                                    <div class="diagram-lineRightBot" id="diagram-bot">
+
+                                    </div>
+                                </div>
+            </div>
+
+            <! Legend>
+                <div class="legend">
+
+                    <div class="legend-part">
+                        <div class="legend-dotGold"></div>
+                        <span class="legend-text">Woman winner</span>
+                    </div>
+
+                    <div class="legend-part">
+                        <div class="legend-dot"></div>
+                        <span class="legend-text">1 nominees</span>
+                    </div>
+
+                    <div class="legend-part">
+                        <div class="legend-dot2"></div>
+                        <span class="legend-text">2 nominees</span>
+                    </div>
+
+                    <div class="legend-part">
+                        <div class="legend-dot3"></div>
+                        <span class="legend-text">3 nominees</span>
+                    </div>
+
+                    <div class="legend-part">
+                        <div class="legend-dot4"></div>
+                        <span class="legend-text">4 nominees</span>
+                    </div>
+
+                </div>
+
+                <! Nominees display>
+                    <div class="data-display" id="data">
+                    </div>
+
     </div>
-    <h1 class="title">Main Page</h1>
+    <script type="text/javascript" src="./scriptsMain.js"></script>
 
 </body>
 
