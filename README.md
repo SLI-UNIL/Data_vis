@@ -56,4 +56,4 @@ It is very interesting to note the following points (amongst others) :
 
 Creators:
 
-Luisa Blaz, Vanja Jamina, Sofia Yazitzoglou
+Luisa Blaz Alvarez Prado, Vanja Jamina, Sofia Yazitzoglou
